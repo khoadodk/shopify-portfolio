@@ -1,0 +1,24 @@
+{
+  "name": "shopify-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoadodk/shopify-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khoadodk/shopify-portfolio/issues"
+  },
+  "homepage": "https://github.com/khoadodk/shopify-portfolio#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
