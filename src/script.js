@@ -1,38 +1,37 @@
 'use strict';
 
 // EmailJS
-window.onload = function() {
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-      event.preventDefault();
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
 
-      let name = document.getElementById("name").value;
-      let email = document.getElementById("email").value;
-      let phone = document.getElementById("phone").value; 
-      let subject = document.getElementById("subject").value; 
-      let message = document.getElementById("message").value; 
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let phone = document.getElementById("phone").value; 
+    let subject = document.getElementById("subject").value; 
+    let message = document.getElementById("message").value; 
 
-      let submitButton = document.querySelector('#contact-form button');
+    let submitButton = document.querySelector('#contact-form button');
 
 
-      const contactParams = {
-        name,
-        email,
-        message,
-        subject,
-        phone
-      }
+    const contactParams = {
+      name,
+      email,
+      message,
+      subject,
+      phone
+    }
 
-      emailjs.send('service_pnzl6ai','template_ise53ph', contactParams)
-          .then(function() {
-              submitButton.innerHTML = 'SUCCESSFULLY SENT';
-              submitButton.style.color = '#41ff41';
-              console.log('SUCCESS!');
-          }, function(error) {
-              submitButton.innerHTML = 'Fail to send';
-              console.log('FAILED...', error);
-          });
-  });
-}
+    emailjs.send('service_pnzl6ai','template_ise53ph', contactParams)
+        .then(function() {
+            submitButton.innerHTML = 'SUCCESSFULLY SENT';
+            submitButton.style.color = '#41ff41';
+            console.log('SUCCESS!');
+        }, function(error) {
+            submitButton.innerHTML = 'Fail to send';
+            console.log('FAILED...', error);
+        });
+});
+
 
 /**
  * add event on element
