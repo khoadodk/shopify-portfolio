@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khoa Do</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.ico" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Calendly link widget -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+  <!-- EmailJS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init('OwFOq1Jcg-WQzrD4Z');
+        })();
+    </script>
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">Khoa Do</a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Projects</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="" class="btn btn-primary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fitness-wp/shopify-dev'});return false;">Book A Call</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Khoa Do</p>
+
+            <h1 class="h1 hero-title">Shopify | Front End Web Developer</h1>
+
+            <h4 class="hero-text">
+              "When love and skill work together, expect a masterpiece."
+            </h4>
+            <span>John Ruskin</span>
+
+            <div class="hero-links">
+              <a href="#about" class="btn btn-primary">ABOUT ME</a>
+
+              <a href="https://github.com/khoadodk" target="_blank"><img src="./assets/images/github.png" alt="Github" width="30" height="30"></a>
+              <a href="https://www.linkedin.com/in/khoa-do-dk/" target="_blank"><img src="./assets/images/linkedin.png" alt="Linkedin" width="30" height="30"></a>
+
+            </div>
+            
+
+
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-image.png" width="720" height="673" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">Skills & Services I Provide</h2>
+
+          <p class="section-text">
+           
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/shopify.png" alt="shopify" width="50" height="50">
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="javascript" width="50" height="50">
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.webp" alt="react" width="50" height="50">
+                </div>
+
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #fc3549">
+                  <ion-icon name="phone-portrait"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="" class="card-title">Complete Redesign or Facelift</a>
+                </h3>
+
+                <p class="card-text">
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ff612f">
+                  <ion-icon name="cloud-upload"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="" class="card-title">Theme Customization</a>
+                </h3>
+
+                <p class="card-text">
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #00d280">
+                  <ion-icon name="build"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="" class="card-title">Maintenance and Optimization</a>
+                </h3>
+
+                <p class="card-text">
+                </p>
+
+              </div>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="project" aria-label="project">
+        <div class="container">
+
+          <h2 class="h2 section-title">My Recent Projects</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/1.jpg" width="510" height="700" loading="lazy"
+                    alt="Next Shopify" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">NextJS GraphQL SwiperJS Tailwind</p>
+                  <h3 class="h3">
+                    <a href="https://next-shopify-ruby.vercel.app" class="card-title">Headless Shopify Store</a>
+                  </h3>
+                  <div class="card-links">
+                    <a href="https://next-shopify-ruby.vercel.app" target="_blank" class="btn btn-primary">Live</a>
+                    <a href="https://github.com/khoadodk/next-shopify" target="_blank" class="btn btn-secondary">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/2.jpg" width="510" height="700" loading="lazy"
+                    alt="tailwind" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Liquid SwiperJS Tailwind</p>
+                  <h3 class="h3">
+                    <a href="https://shop-tailwind.myshopify.com" class="card-title">Shopify Store From Scratch</a>
+                  </h3>
+                  <div class="card-links">
+                    <a href="https://shop-tailwind.myshopify.com" target="_blank" class="btn btn-primary">Live</a>
+                    <a href="https://github.com/khoadodk/shop-tailwind" target="_blank" class="btn btn-secondary">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/3.jpg" width="510" height="700" loading="lazy"
+                    alt="fashionica" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Liquid Javascript</p>
+                  <h3 class="h3">
+                    <a href="https://fashionica-kd.myshopify.com" class="card-title">Custom Shopify Store w/ Dawn</a>
+                  </h3>
+                  <div class="card-links">
+                    <a href="https://fashionica-kd.myshopify.com" target="_blank" class="btn btn-primary">Live</a>
+                    <a href="https://github.com/khoadodk/fashionica" target="_blank" class="btn btn-secondary">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/4.png" width="510" height="700" loading="lazy"
+                    alt="fashionica" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">Liquid Javascript CSS</p>
+                  <h3 class="h3">
+                    <a href="https://ulxstore.com" class="card-title">Complete Store Design w/ Dawn</a>
+                  </h3>
+                  <div class="card-links">
+                    <a href="https://ulxstore.com" target="_blank" class="btn btn-primary">Live</a>
+                    <a href="https://dawn-demo-kd.myshopify.com" target="_blank" class="btn btn-secondary">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/5.png" width="510" height="700" loading="lazy"
+                    alt="fashionica" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle"></p>
+                  <h3 class="h3">
+                    <a href="https://petthirstfeed.com" class="card-title">Complete Store Design w/ Prestige Theme</a>
+                  </h3>
+                  <div class="card-links">
+                    <a href="https://petthirstfeed.com" target="_blank" class="btn btn-primary">Live</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./assets/images/6.jpg" width="510" height="700" loading="lazy"
+                    alt="fashionica" class="img-cover">
+                </figure>
+                <div class="card-content">
+                  <p class="card-subtitle">React Framer-motion SwiperJS</p>
+                  <h3 class="h3">
+                    <a href="https://kd-the-normies.netlify.app" class="card-title">Front End Template for NFT Projects</a>
+                  </h3>
+                  <div class="card-links">
+                    <a href="https://kd-the-normies.netlify.app" target="_blank" class="btn btn-primary">Live</a>
+                    <a href="https://github.com/khoadodk/the-normies" target="_blank" class="btn btn-secondary">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner img-holder" style="--width: 720; --height: 960;">
+            <img src="./assets/images/about-image.png" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">About Me</h2>
+
+            <p class="section-text">
+            </p>
+
+            <h3 class="h3">Who Am I?</h3>
+
+            <p class="section-text">
+              I'm a passionate web developer who loves to eat and breath in code.
+              With 2+ years of experience, I have acquired the skills and knowledge necessary to make your project successful. 
+              I enjoy every step of the development process, from initial discussion to collaboration.
+            </p>
+
+            <!-- <h3 class="h3">Our Success</h3>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  It is a long established fact that a reader will be distracted by the readable content of a page when
+                  looking at its
+                  layout.
+                </p>
+              </li>
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                  classical Latin
+                  literature.
+                </p>
+              </li>
+
+            </ul> -->
+
+            <h3 class="h3">My Mission</h3>
+
+            <p class="section-text">
+              My aim is to provide the best Shopify Development service and quality to any clients without compromises.
+              The reviews prove my work ethic and are a testimonial to the premium experience I provide as a Shopify Expert.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <p class="cta-subtitle">So What is Next?</p>
+
+          <h2 class="h2 section-title">Are You Ready? Let's get to Work!</h2>
+
+          <a href="" class="btn btn-secondary" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/fitness-wp/shopify-dev'});return false;">Hire Me</a>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Let's Contact With me</h2>
+
+          <p class="section-text">
+            Please fill out the form on this section to contact with me. I will answer within 24 hours.
+          </p>
+
+          <form action="" class="contact-form" id="contact-form">
+            <input type="hidden" name="contact_number">
+            <div class="input-wrapper">
+              <input type="text" id="name" name="name" aria-label="name" placeholder="Your name*" required class="input-field">
+
+              <input type="email" id="email" name="email_address" aria-label="email" placeholder="Email address*" required
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <input type="text" id="subject" name="subject" aria-label="subject" placeholder="Subject" class="input-field">
+
+              <input type="number" id="phone" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
+            </div>
+
+            <textarea id="message" name="message" aria-label="message" placeholder="Your message...*" required
+              class="input-field"></textarea>
+
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+
+          </form>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2022 All Rights Reserved by <a href="#" class="copyright-link">Khoa Do</a>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
