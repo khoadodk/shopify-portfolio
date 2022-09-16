@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/khoadodk/shopify-portfolio#readme",
   "devDependencies": {
-    "parcel": "^2.7.0"
+    "parcel": "latest"
   }
 }
